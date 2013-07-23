@@ -34,7 +34,7 @@ import org.apache.lucene.util.NumericUtils;
 
 public enum FieldType {
 
-    DATE(8, SortField.LONG) {
+    DATE(1, SortField.LONG) {
 
         @Override
         public NumericField toField(final String name, final Object value, final ViewSettings settings) throws ParseException {
