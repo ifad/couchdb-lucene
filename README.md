@@ -1,5 +1,15 @@
 [![Build Status](https://secure.travis-ci.org/rnewson/couchdb-lucene.png)](http://travis-ci.org/rnewson/couchdb-lucene)
 
+<h1>Description of this fork</h1>
+
+* Based off `0.10.0-SNAPSHOT`
+* Increase the
+  [precisionStep](http://lucene.apache.org/core/3_6_1/api/all/org/apache/lucene/document/NumericField.html)
+  of `date` fields to 1, for more granularity in Range queries and exact sorting.
+* Include [@patricklodder](https://github.com/patricklodder)'s change to allow
+  [queries via POST](https://github.com/patricklodder/couchdb-lucene/tree/allow_post_queries)
+* Updates Lucene to version `3.6.2`
+
 <h1>Version Compatibility</h1>
 
 CouchDB-Lucene works with all version of CouchDB from 0.10 upwards.
