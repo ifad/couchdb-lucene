@@ -9,6 +9,12 @@
 * Include [@patricklodder](https://github.com/patricklodder)'s change to allow
   [queries via POST](https://github.com/patricklodder/couchdb-lucene/tree/allow_post_queries)
 * Updates Lucene to version `3.6.2`
+* Includes the full ooxml-schemas from [Apache POI](http://mvnrepository.com/artifact/org.apache.poi/ooxml-schemas),
+  so it can index possibily every kind of Microsoft Office OOXML documents, even ones using exotic features.
+
+<h1>Installing</h1>
+
+A prebuilt distribution of this fork is available [as a Git repository](https://github.com/ifad/couchdb-lucene-build), or [as an RPM package for OpenSuSE](https://build.opensuse.org/package/show/home:vjt:ifad/couchdb-lucene).
 
 <h1>Version Compatibility</h1>
 
